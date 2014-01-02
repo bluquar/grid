@@ -1,0 +1,16 @@
+VERSION 04.
+
+Changes:
+-Easy, medium, hard AIs builtin
+-API documentation for AIs
+-Moving over enemy's edge erases is, rather than replacing
+
+========================
+
+TODO:
+
+-Decide what happens when two players capture a territory
+ at the same time.
+-Ladder (save to server somehow!)
+-Resizable board
+-Online multiplayer

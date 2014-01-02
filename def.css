@@ -1,0 +1,51 @@
+body {
+  min-width: 960px;
+}
+
+.contain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.tricol,
+.mainart {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contain .tricol {
+  width: 300px;
+}
+
+.contain .mainart {
+  width: 940px;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 3px solid #c3c3c3;
+}
+
+* {font-family: Arial, Verdana, sans-serif;
+   color: #665544;
+   text-align: center;}
+
+#nav, .article, #header {
+    background-color: #efefef;
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;}
+.article {height: 200px;}
+li {display: inline;  padding: 5px;}
+
+textarea {
+   font-size: 12pt;
+   font-family: Courier;
+    text-align: left;
+}
